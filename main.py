@@ -3,6 +3,7 @@ class Universe:
         # change in velocity
         self.delta_v = delta_v
         # the standard gravitational parameter μ of a celestial body is the product of the gravitational constant G and the mass M of the body.
+        # g-factor −2.002 331 83620(86)
         self.muon_a = muon_a
 
     print("Always executed")
