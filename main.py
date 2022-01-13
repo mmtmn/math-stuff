@@ -1,15 +1,15 @@
 class Universe:
-    def __init__(self,delta_v,gravity_mu):
+    def __init__(self,delta_v,muon_a):
         # change in velocity
         self.delta_v = delta_v
         # the standard gravitational parameter μ of a celestial body is the product of the gravitational constant G and the mass M of the body.
-        self.gravity_mu = gravity_mu
+        self.muon_a = muon_a
 
     print("Always executed")
     
     if __name__ == "__main__":
         def StandardModel(self):
-            Lsm = (-0.5 * self.delta_v * self.gravity_mu)
+            Lsm = (-0.5 * self.delta_v * self.muon_a)
             return Lsm
     else:
         def Relativity():
