@@ -10,6 +10,13 @@ class Universe:
     
     if __name__ == "__main__":
         def StandardModel(self):
+            """ a gauge quantum field theory containing
+             the internal symmetries of the unitary 
+             product group SU(3) × SU(2) × U(1). 
+             The theory is commonly viewed as describing 
+             the fundamental set of particles – the leptons,
+             quarks, gauge bosons and the Higgs boson. 
+            """
             Lsm = (-0.5 * self.delta_v * self.muon_a)
             return Lsm
     else:
